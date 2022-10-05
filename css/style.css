@@ -1,0 +1,223 @@
+body {
+    background-color: #fff;
+}
+
+.container {
+    width: 660px;
+    margin: 90px auto;
+    position: relative;
+}
+
+.hero img {
+    width: 320px;
+    position: relative;
+}
+
+.login-box {
+    background-color: #fff;
+    width: 300px;
+    height: 330px;
+    border: 1px solid gainsboro;
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+
+input {
+    position: absolute;
+    top: 100px;
+    left: 28px;
+    width: 235px;
+    height: 30px;
+    font-size: 12px;
+    background-color: #f2f2f2;
+    border: #999 1px solid ;
+}
+
+#password input {
+    position: absolute;
+    top: 140px;
+    left: 28px;
+    width: 235px;
+    height: 30px;
+    font-size: 12px;
+    background-color: #f2f2f2;
+    border: #999 1px solid ;
+}
+
+::placeholder {
+    color: #999;
+}
+
+.igLogo img {
+    width: 200px;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+
+.form input, a {
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#buttonLogin a {
+    position: absolute;
+    top: 185px;
+    left: 28px;
+    width: 240px;
+    height: 30px;
+    background-color: #1aa3ff;
+    color: #fff;
+    border: #1aa3ff;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#buttonLogin a:hover {
+    background-color: #1792e3;
+}
+
+.atau {
+    width: 80%;
+    text-align: center;
+    border-bottom: 1px solid #999;
+    line-height: 0.1em;
+    margin: 240px auto;
+    color: #999;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.atau span {
+    background: #fff;
+    padding: 0 10px;
+  }
+
+.text-center img {
+    width: 20px;
+    position: absolute;
+    top: 270px;
+    left: 60px;
+}
+
+.p1 {
+    color: #3b5998;
+    position: absolute;
+    top: 272px;
+    left: 90px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.p2 {
+    color: #3b5998;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+
+.login-box2 {
+    background-color: #fff;
+    width: 300px;
+    height: 50px;
+    border: solid 1px gainsboro;
+    position: absolute;
+    bottom: 85px;
+    right: 0;
+}
+
+.login-box2 span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 50px;
+    position: absolute;
+    top: 0;
+    left: 41px;
+}
+
+span a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #1aa3ff;
+}
+
+.aplikasi-text-center p {
+    position: absolute;
+    right: 108px;
+    bottom: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 84px;
+}
+
+.aplikasi-text-center img {
+    width: 135px;
+}
+
+.img1 {
+    position: absolute;
+    bottom: 0;
+    right: 155px;
+}
+
+.img2 {
+    position: absolute;
+    bottom: 0px;
+    right: 15px;  
+}
+
+.footer {
+    width: 600px;
+    margin-top: 50px;
+    float: left;
+    background-color: #fff;
+    position: absolute;
+    left: 30px;
+}
+
+.footer a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #999;
+}
+
+.link ul li {
+    float: left;
+    position: relative;
+    left: 9px;
+    margin: 4px 9px;
+}
+
+.link2 ul li {
+    float: left;
+    position: relative;
+    left: 45px;
+    margin: 4px 9px;
+}
+
+.form-select {
+    border: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #999;
+    cursor: pointer;
+    float: left;
+    margin: 13px -3px 0 175px;
+}
+
+.footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #999;
+    float: left;
+    margin: 15px 0 0 10px;
+}
